@@ -1,6 +1,74 @@
 body {
-    background-image: url(../src/VAR.webp);
-    background-attachment: fixed;
-    background-size: 120%;
+    background: linear-gradient(#000000, #91e59e);
+    background-position: fixed;
     text-align: center;
+}
+
+.homebutton {
+    width: 80vw;
+    height: 10vh;
+    margin-top: 5vh;
+    color: white;
+    background-color: rgba(0, 183, 146);
+    border-radius: 0px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 150%;
+}
+
+.leftcontainer {
+    display: inline-block;
+    margin-top: 5vh;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.7);
+    border-style:ridge;
+
+    float: left;
+    margin-left: 5vw;
+
+    text-align: center;
+    color: rgb(0, 0, 0);
+
+    height: 80vh;
+}
+
+.rightcontainer {
+    display: inline-block;
+    margin-top: 5vh;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.7);
+    border-style:ridge;
+
+    float: right;
+    margin-right: 5vw;
+
+
+    text-align: center;
+    color: black;
+
+    height: 80vh;
+}
+
+h1 {
+    color: white;
+    font-family:monospace;
+    margin-top: 5vh;
+    background-color: rgba(0,0,0,0.8);
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+h2 {
+    padding-bottom: 2vh;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+h4 {
+    padding-bottom: 2vh;
+    font-family:'Times New Roman', Times, serif;
+}
+
+img {
+    height: 74vh;
+    width:fit-content;
 }
